@@ -9,8 +9,7 @@
 - user = Login
 - password = Password
 
-#router host
-- host = 172.20.10.4
+- host = 172.20.10.4 #router host
 - port = 8728
 - #default if you dont want to use it in command line
 - device = ether10
