@@ -58,7 +58,7 @@ if os.path.exists(iniPath):
         username=user,
         password=password,
         port=port,
-        plaintext_login=True,  # Добавил вчера
+        plaintext_login=True,  # Encode login - or not, we need to not
         use_ssl=False,
         ssl_verify=False,
         ssl_verify_hostname=False,
